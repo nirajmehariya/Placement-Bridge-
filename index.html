@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlacementBridge</title>
+    <link rel="Icon" href="./images/HomePage_Imgs/placement-bridge-logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./styles/practicestyle.css" />
+    <script defer src="./js/practicescript.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <div class="top-bar">
+        <div class="top-bar__content">
+          <a href="./Html/login.html" class="btn">Sign in</a>
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <div class="bottom-bar__content">
+          <a href="#" class="logo">
+            <img
+              src="./images/HomePage_Imgs/placement-bridge-logo.svg"
+              alt="logo"
+              class="logo__img"
+            />
+            <span class="logo__text">Placement Bridge</span>
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#aboutus" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#Services" class="nav__link">Our Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Body -->
+    <div class="website-content__inner">
+      <!-- Home -->
+      <section class="home">
+        <div class="welcome-text">Get job at your dream company!</div>
+        <div class="info-text__img">
+          <div class="info-text">
+            <p>
+              We offer top-notch information that fits you and helps you get
+              closer to your dream job while giving you the perfect expertise
+              for your job needs.
+            </p>
+          </div>
+          <div class="idea__img">
+            <img src="./images/HomePage_Imgs/IdeaIcon.png" alt="Idea image" />
+          </div>
+        </div>
+        <div class="learn-more-btn">
+          <span
+            ><span>Learn More</span>
+            <i class="fa-solid fa-arrow-right-long learn-more-icon"></i
+          ></span>
+        </div>
+      </section>
+
+      <section class="features-main" id="Services">
+        <div class="features-container">
+          <div
+            class="feature recruitement"
+            data-aos="fade-down-right"
+            data-aos-duration="800"
+          >
+            <img
+              class="feature-logo"
+              src="images/HomePage_Imgs/recruitment.svg"
+              alt="recruitment_logo"
+            />
+            <div class="content">
+              <p>Recruitements</p>
+              <a href="./Html/Recruitments.html">
+                <button class="view">View</button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="feature coreitsub"
+            data-aos="fade-down-left"
+            data-aos-duration="800"
+          >
+            <img
+              class="feature-logo"
+              src="images/HomePage_Imgs/Core IT Icon.svg"
+              alt="recruitment_logo"
+            />
+            <div class="content">
+              <p>Core IT Subjects</p>
+              <a href="./Html/subjects.html">
+                <button class="view">View</button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="feature hackathon"
+            data-aos="fade-up-right"
+            data-aos-duration="800"
+          >
+            <img
+              class="feature-logo"
+              src="images/HomePage_Imgs/Hackathon Icon.svg"
+              alt="recruitment_logo"
+            />
+            <div class="content">
+              <p>Hackathon Hub</p>
+              <a href="./Html/HackathonHub.html">
+                <button class="view">View</button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="feature latest-tech"
+            data-aos="fade-up-left"
+            data-aos-duration="800"
+          >
+            <img
+              class="feature-logo"
+              src="images/HomePage_Imgs/Latesh tech Icon.svg"
+              alt="recruitment_logo"
+            />
+            <div class="content">
+              <p>Latest Technologies</p>
+              <a href="./Html/technology.html">
+                <button class="view">View</button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="feature startup"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <img
+              class="feature-logo"
+              src="images/HomePage_Imgs/Startup Logo.svg"
+              alt="recruitment_logo"
+            />
+            <div class="content">
+              <p>StartUp</p>
+              <a href="./Html/Recruitments.html">
+                <button class="view">View</button>
+              </a>
+            </div>
+            <img
+              class="new-logo"
+              src="images/HomePage_Imgs/new logo.svg"
+              alt="new-logo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <hr id="aboutus" />
+
+      <!-- About US -->
+      <section class="about">
+        <div class="about-main">
+          <div
+            class="about-grid1"
+            data-aos="fade-right"
+            data-aos-duration="900"
+          >
+            <h1>ABOUT US</h1>
+            <p>
+              Step into the transformative world of IT excellence with Placement
+              Bridge! Discover career opportunities with our recruitment
+              feature, offering detailed roadmaps for each role's success. Stay
+              informed on upcoming hackathons, delve into core IT subjects
+              through curated links, connect with innovative startups, and
+              explore the latest industry-demanded technologies. Seamlessly
+              integrating resources, we're your one-stop destination for
+              navigating the dynamic landscape of IT careers. Join us and propel
+              your journey to success!
+            </p>
+          </div>
+          <div
+            class="about-grid2"
+            data-aos="fade-down-left"
+            data-aos-duration="900"
+          >
+            <img src="./images/HomePage_Imgs/AboutHomeSvg.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Transparent About Us Bar -->
+
+    <section class="transparent-Bar">
+      <div class="trans-bar">
+        <header
+          class="bar-header"
+          data-aos="fade-right"
+          data-aos-duration="700"
+        >
+          We See<br />What Others Don't See
+        </header>
+        <div class="bar-list" data-aos="fade-right" data-aos-duration="700">
+          <div class="items">
+            <img
+              class="bar-logo"
+              src="images/HomePage_Imgs/Survey Logo.svg"
+              alt="survey"
+            />
+            <span>Survey</span>
+          </div>
+          <img src="images/HomePage_Imgs/right_arrow.svg" alt="arrow" />
+          <div class="items">
+            <img
+              class="bar-logo"
+              src="images/HomePage_Imgs/planning logo.svg"
+              alt="planning"
+            />
+            <span>Planning</span>
+          </div>
+          <img src="images/HomePage_Imgs/right_arrow.svg" alt="arrow" />
+          <div class="items">
+            <img
+              class="bar-logo"
+              src="images/HomePage_Imgs/Develop Logo.svg"
+              alt="develop"
+            />
+            <span>Develop</span>
+          </div>
+          <img src="images/HomePage_Imgs/right_arrow.svg" alt="arrow" />
+          <div class="items">
+            <img
+              class="bar-logo"
+              src="images/HomePage_Imgs/Provide Logo.svg"
+              alt="provide"
+            />
+            <span>Provide</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div
+        class="contact-container"
+        data-aos="fade-up-right"
+        data-aos-duration="800"
+      >
+        <div class="contact-card">
+          <div class="infos">
+            <h6 class="section-subtitle">Get Here</h6>
+            <h6 class="section-title mb-4">Contact Us</h6>
+
+            <div class="item">
+              <i
+                class="fa-solid fa-mobile-screen-button"
+                style="color: #1e8bf1"
+              ></i>
+              <div>
+                <h5>Phone Number</h5>
+                <p>(123) 456-7890</p>
+              </div>
+            </div>
+            <div class="item">
+              <i class="fa-regular fa-envelope" style="color: #1e8bf1"></i>
+              <div class="mb-0">
+                <h5>Email Address</h5>
+                <p>info@website.com</p>
+              </div>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-globe" style="color: #1e8bf1"></i>
+              <div class="mb-0">
+                <h5>example.com</h5>
+                <p>info@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <h6 class="section-subtitle">Available 24/7</h6>
+            <h6 class="section-title mb-4">Get In Touch</h6>
+            <form>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control form-control-lg"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="contact-message"
+                  id=""
+                  cols="30"
+                  rows="7"
+                  class="form-control form-control-lg"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn-square btn-primary btn-block btn-lg mt-3"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="rep" data-aos="fade-up-right" data-aos-duration="700">
+          <div class="logo">
+            <img
+              src="./images/FooterImages/placement-bridge-logo.svg"
+              alt="Placement Bridge Logo"
+            />
+          </div>
+          <div class="social-icons">
+            <div class="w_bac">
+              <a href="#"
+                ><img
+                  class="soc_logo"
+                  src="./images/FooterImages/GitHub Logomark.svg"
+                  alt="Facebook"
+              /></a>
+            </div>
+            <div class="w_bac">
+              <a href="#"
+                ><img
+                  class="soc_logo"
+                  src="./images/FooterImages/LinkedIn Logomark.svg"
+                  alt="LinkedIn"
+              /></a>
+            </div>
+            <div class="w_bac">
+              <a href="#"
+                ><img
+                  class="soc_logo"
+                  src="./images/FooterImages/Twitter Logomark.svg"
+                  alt="Twitter"
+              /></a>
+            </div>
+            <div class="w_bac">
+              <a href="#"
+                ><img
+                  class="soc_logo"
+                  src="./images/FooterImages/Instagram Logomark.svg"
+                  alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu" data-aos="fade-up" data-aos-duration="700">
+          <div>HOME</div>
+          <div>ABOUT</div>
+          <div>SERVICES</div>
+          <div>FAQ</div>
+          <div>CONTACT</div>
+        </div>
+
+        <div
+          class="contact-info"
+          data-aos="fade-up-left"
+          data-aos-duration="700"
+        >
+          <div>CONTACT WITH US!</div>
+          <div>Phone: +91 78337 11168</div>
+          <div>Email: bhavindhobi13@gmail.com,</div>
+          <div>Email: shreykoradiya10@gmail.com</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Animate On Scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

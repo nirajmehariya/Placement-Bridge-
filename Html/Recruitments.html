@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlacementBridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/practicestyle.css" />
+    <link rel="stylesheet" href="../styles/recruitments.css" />
+    <link rel="stylesheet" href="../styles/utilities.css" />
+    <script defer src="./js/practicescript.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <div class="top-bar">
+        <div class="top-bar__content">
+          <a href="login.html" class="btn">Sign in</a>
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <div class="bottom-bar__content">
+          <a href="#" class="logo">
+            <img
+              src="../images/HomePage_Imgs/placement-bridge-logo.svg"
+              alt="logo"
+              class="logo__img"
+            />
+            <span class="logo__text">Placement Bridge</span>
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="../index.html" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#aboutus" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#Services" class="nav__link">Our Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="website-content">
+      <section class="search">
+        <div class="search-main">
+          <div class="grid-1">
+            <div class="web-heading">Companies</div>
+          </div>
+          <div class="grid-2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="search"
+              name="search"
+              id="searchbar"
+              placeholder="Search Companies.."
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Companies data -->
+      <section class="companies">
+        <div class="company-container Amazon">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img
+                    src="../images/CompaniesLogo/Amazon.svg"
+                    alt="amazonlogo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>Amazon</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Hyderabad</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>1M +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Amazon is a multinational technology company known for its
+                diverse offerings, including e-commerce, cloud computing through
+                Amazon Web Services (AWS), and digital content streaming. It
+                dominates online retail with its vast marketplace and Prime
+                subscription service, while also leading in cloud infrastructure
+                services and AI-driven innovations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="company-container TCS">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img src="../images/CompaniesLogo/TCS.svg" alt="tcslogo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>TCS</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Mumbai</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>500K +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Tata Consultancy Services (TCS) is a global leader in IT
+                services, consulting, and business solutions. Headquartered in
+                Mumbai, India, TCS operates in over 50 countries and provides a
+                wide range of services including software development,
+                infrastructure management, and digital transformation. With a
+                focus on innovation and customer-centric solutions, TCS has
+                established itself as one of the largest and most respected IT
+                services companies worldwide.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="company-container Google">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img
+                    src="../images/CompaniesLogo/google.svg"
+                    alt="googlelogo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>Google</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Bengaluru,</h3>
+                <h3>Mumbai</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>100K +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Google is a multinational technology company renowned for its
+                internet-related products and services, including online
+                advertising technologies, search engines, cloud computing,
+                software, and hardware. Headquartered in Mountain View,
+                California, Google's mission is to organize the world's
+                information and make it universally accessible and useful,
+                driving innovation across various sectors of technology.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="company-container Wipro">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img src="../images/CompaniesLogo/wipro.svg" alt="wiprologo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>Wipro</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Bengaluru</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>200K +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Wipro, a leading technology services and consulting firm,
+                pioneers transformative solutions for intricate digital
+                transformations. Boasting a diverse global workforce of 245,000
+                professionals and partners in 65 countries, we empower clients
+                to achieve their aspirations, cultivating resilient and
+                future-ready businesses while championing inclusivity throughout
+                the journey.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="company-container Infosys">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img
+                    src="../images/CompaniesLogo/infosys.svg"
+                    alt="infosyslogo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>Infosys</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Bengaluru</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>300K +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Infosys, a renowned global force in digital services and
+                consulting, guides clients in over 50 countries through their
+                digital transformation. With over 30 years of expertise, we
+                employ an AI-powered core to drive efficient change execution
+                and deliver agile digital solutions at scale, ensuring
+                heightened performance and customer satisfaction.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="company-container Microsoft">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img
+                    src="../images/CompaniesLogo/microsoft.svg"
+                    alt="microsoftlogo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>Microsoft</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Hyderabad</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>200K +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Microsoft-Microsoft is a multinational technology corporation
+                known for its software products and services, including Windows,
+                Office, and Azure cloud platform. With a focus on innovation and
+                digital transformation, Microsoft empowers individuals and
+                organizations worldwide to achieve more. Renowned for its
+                commitment to accessibility, security, and sustainability,
+                Microsoft continues to shape the future of technology.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="company-container JustPay">
+          <div class="grid1__cc">
+            <div class="grid-11__cc">
+              <div class="company-logo">
+                <a href="" class="company__img"
+                  ><img
+                    src="../images/CompaniesLogo/justpay.svg"
+                    alt="justpaylogo"
+                /></a>
+              </div>
+              <div class="com-specs">
+                <div class="company-name"><h2>JustPay</h2></div>
+                <div class="com-rating">
+                  <h3>4</h3>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="grid-12__cc">
+              <div class="com-location">
+                <h3>Location</h3>
+                <h3>Bengaluru</h3>
+              </div>
+              <div class="com-current-employees">
+                <h3>Employees</h3>
+                <h3>1000 +</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2__cc">
+            <div class="vertical-line"></div>
+            <div class="com-description">
+              <h3>Description</h3>
+              <p>
+                Juspay is a leading fintech company specializing in digital
+                payments and commerce solutions. Their innovative platforms
+                enable seamless and secure transactions for businesses and
+                consumers, driving convenience and efficiency in the digital
+                economy. With a focus on user experience and reliability, Juspay
+                is revolutionizing the way payments are made and managed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="page-no">
+      <div class="page-container">
+        <i class="fa-solid fa-angles-left fa-lg"></i>
+        <i class="fa-solid fa-angle-left fa-lg"></i>
+        <p>Page 1</p>
+        <i class="fa-solid fa-angle-right fa-lg"></i>
+        <i class="fa-solid fa-angles-right fa-lg"></i>
+      </div>
+    </footer>
+  </body>
+</html>

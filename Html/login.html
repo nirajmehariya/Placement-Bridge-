@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <script defer src="../js/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-heading-container">
+        <img
+          src="../images/HomePage_Imgs/placement-bridge-logo.svg"
+          alt="Logo"
+          class="logo"
+        />
+        <h1 class="heading">Placement Bridge</h1>
+      </div>
+      <h3 class="title">Welcome, Please enter your credentials!</h3>
+    </header>
+    <div class="container">
+      <!-- upper button section to select
+           the login or signup form -->
+      <div class="slider"></div>
+      <div class="btn">
+        <button class="login">Sign in</button>
+        <button class="signup">Sign up</button>
+      </div>
+
+      <!-- Form section that contains the
+           login and the signup form -->
+      <div class="form-section">
+        <!-- login form -->
+        <div class="login-box">
+          <input type="email" class="email ele" placeholder="Email" />
+          <input type="password" class="password ele" placeholder="Password" />
+          <button class="clkbtn">Sign in</button>
+          <div class="separator">
+            <span class="separator-text">OR</span>
+          </div>
+          <div class="social-buttons">
+            <button class="google-btn">
+              <i class="fab fa-google"></i>
+            </button>
+
+            <button class="github-btn">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- signup form -->
+        <div class="signup-box">
+          <input type="text" class="name ele" placeholder="Enter your name" />
+          <input type="email" class="email ele" placeholder="Email" />
+          <input
+            type="password"
+            class="password ele"
+            placeholder="Enter your Password"
+          />
+          <input
+            type="password"
+            class="password ele"
+            placeholder="Confirm Password"
+          />
+          <button class="clkbtn">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
